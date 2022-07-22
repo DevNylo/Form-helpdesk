@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help me</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Help Desk</title>
 </head>
 <body>
-    <div>
+    <div id="form">
         <form action="">
+            <h1>Help Desk</h1>
+            <label for="Name">Your name:</label>
             <input type="text" name="Name" placeholder="Name">
+            <label for="Email">Your e-mail:</label>
             <input type="email" name="Email" placeholder="E-mail">
+            <label for="Name">Describe your problem:</label>
             <textarea name="question" placeholder="How can we help you?" style="resize: none;"></textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="submit">
         </form>
+        <div class="image">
+            <img src="img/Question.svg" alt="Question-img">
+        </div>
     </div>
     
 </body>
