@@ -114,3 +114,19 @@ form label{
     width: 100%;
     height: inherit;
 }
+
+
+@media only screen and (max-width: 900px) {
+    #form{
+        width: 100%;
+    }
+
+    form{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .image{
+        display: none;
+    }
+}
