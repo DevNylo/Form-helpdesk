@@ -2,4 +2,4 @@
 
 Fomulário simples para estudos de formulários e validação em JS.
 
-<img src="https://github.com/DevNylo/Form-helpdesk/blob/main/helpdesk.png?raw=true"></img>
+<img src="https://github.com/DevNylo/DevNylo/blob/main/Preview-Pages/Helpdesk.png"></img>
